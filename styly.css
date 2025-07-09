@@ -13,7 +13,7 @@ body{
 }
 
 nav{
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
     
 }
@@ -32,22 +32,17 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     line-height: 2vw;
-    font-size: clamp(18, 1.8vw, 25px);
+    font-size: clamp(18px, 1.8vw, 25px);
 }
 
 nav ul li a:hover{
     text-decoration: underline solid 2px;
 }
 
-header input[type=search]{
-    position: absolute;
-    top: 1vw;
-    width: 9vw;
-}
 /* KONEC OBSAHU HLAVICKY */
 
 .nadpisWebu{
-    font-size: 3vw;
+    font-size: clamp(22px, 3vw, 35px);
     text-align: center;
     margin-top: 2vw;
     letter-spacing: 0.3vw;
