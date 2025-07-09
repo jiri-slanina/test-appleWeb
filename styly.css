@@ -149,7 +149,7 @@ button{
 }
 
 button:hover{
-    background-color: #818991;
+    background-color: #3e7ab6;
     color: #fff;
 }
 
@@ -188,7 +188,7 @@ button:hover{
     width: 80vw;
     text-align: center;
     margin: 0 auto;
-    font-size: clamp(12px, 1.8vw, 28px);
+    font-size: clamp(10px, 1.8vw, 25px);
     padding: 0.2vw 0.4vw;
     border-radius: 10px;
 }
@@ -198,7 +198,7 @@ button:hover{
     text-align: center;
     display: none;
     position: relative;
-    left: 46vw;
+    left: 41vw;
     margin: 2vw auto;
 }
 
