@@ -17,22 +17,27 @@ nav{
     margin: 0 auto;
 }
 
-nav ul{
-    height: clamp(25px, 5vw, 45px);
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center; /* zarovnání obsahu na střed vertikálně */
     list-style-type: none;
     background-color: #343a40;
-    height: 5vh;
     border-radius: 0px 0px 10px 10px;
+
+    /* odstranění pevné výšky ve vh */
+    height: clamp(40px, 6vw, 65px);
+    padding: 0.5rem 0; /* trochu dýchacího prostoru */
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    line-height: 1.5vw;
-    font-size: clamp(18px, 1.9vw, 25px);
+    font-size: clamp(16px, 1.8vw, 24px);
+    line-height: 1.2; /* klasická výška řádku bez závislosti na šířce */
+    display: inline-block; /* aby šla výška textu lépe řídit */
+    padding: 0.25rem 0.5rem; /* dodatečný prostor kolem textu */
 }
 
 nav ul li a:hover{
