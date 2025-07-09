@@ -15,7 +15,7 @@ body{
 nav{
     width: 90vw;
     margin: 0 auto;
-    
+
 }
 
 nav ul{
@@ -25,18 +25,20 @@ nav ul{
     justify-content: space-around;
     list-style-type: none;
     background-color: #343a40;
+    height: 5vh;
     border-radius: 0px 0px 10px 10px;
 }
 
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    line-height: 2vw;
-    font-size: clamp(18px, 1.8vw, 25px);
+    line-height: 40px;
+    font-size: clamp(18px, 1.9vw, 25px);
 }
 
 nav ul li a:hover{
     text-decoration: underline solid 2px;
+    font-size: clamp(19px, 1.9vw, 26px);
 }
 
 /* KONEC OBSAHU HLAVICKY */
