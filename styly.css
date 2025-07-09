@@ -7,6 +7,9 @@
 body{
     width: 99vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/appleBackground.jpg);
+    background-size: cover;
+    margin: 0 auto;
 }
 
 nav{
@@ -43,14 +46,26 @@ header input[type=search]{
 }
 /* KONEC OBSAHU HLAVICKY */
 
+.nadpisWebu{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 2vw;
+    letter-spacing: 0.3vw;
+    background-color: #343a40a9;
+    color: #fff;
+}
+
 .celyObsah{
     display: flex;
     justify-content: space-around;
     align-self: center;
     position: relative;
-    top: 50px;
+    top: 5vw;
+    padding: 0.4vw 0vw;
     background-color: #343a40;
-    height: 35vw;
+    height: auto;
+    width: 99vw;
+    margin: 0 auto;
 }
 
 /* SEKCE 1 */
@@ -60,7 +75,7 @@ header input[type=search]{
 }
 
 .section1 img{
-    width: 30vw;
+    width: 21.2vw;
 }
 
 .section1 h3{
@@ -70,6 +85,9 @@ header input[type=search]{
 
 
 .section1 p{
+    text-align: center;
+    margin: 0 auto;
+    width: 25vw;
     font-size: clamp(12px, 1.5vw, 25px);
     color: aliceblue;
 }
@@ -81,7 +99,7 @@ header input[type=search]{
 }
 
 .section2 img{
-    width: 23vw;
+    width: 22vw;
 }
 
 .section2 h3{
@@ -91,6 +109,9 @@ header input[type=search]{
 
 
 .section2 p{
+    width: 25vw;
+    text-align: center;
+    margin: 0 auto;
     font-size: clamp(12px, 1.5vw, 25px);
     color: aliceblue;
 }
@@ -102,7 +123,7 @@ header input[type=search]{
 }
 
 .section3 img{
-    width: 29vw;
+    width: 28vw;
 }
 
 .section3 h3{
@@ -112,6 +133,9 @@ header input[type=search]{
 
 
 .section3 p{
+    text-align: center;
+    margin: 0 auto;
+    width: 25vw;
     font-size: clamp(12px, 1.5vw, 25px);
     color: aliceblue;
 }
@@ -125,6 +149,56 @@ button{
 }
 
 button:hover{
-    background-color: #80868ae0;
+    background-color: #818991;
     color: #fff;
 }
+
+.obsahHodinky{
+    background-color: #343a40a2;
+    height: auto;
+    margin-top: 10vw;
+}
+
+.hodinky{
+    max-width: 35vw;
+    position: relative;
+    top: 7vw;
+    left: 2vw;
+}
+
+.popisHodinky{
+    color: #fff;
+    width: 55vw;
+    text-align: left;
+    position: relative;
+    left: 35vw;
+    font-size: clamp(12px, 1.8vw, 28px);
+    top: -7vw;
+}
+
+#viceInfo{
+    width: 20vw;
+    position: relative;
+    left: 60vw;
+    top: -8vw;
+}
+
+#zprava1{
+    color: #fff;
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    font-size: clamp(12px, 1.8vw, 28px);
+    padding: 0.2vw 0.4vw;
+    border-radius: 10px;
+}
+
+#smazat{
+    width: 10vw;
+    text-align: center;
+    display: none;
+    position: relative;
+    left: 46vw;
+    margin: 2vw auto;
+}
+
