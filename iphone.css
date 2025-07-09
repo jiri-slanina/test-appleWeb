@@ -55,12 +55,12 @@ nav ul li a:hover{
 /* KONEC OBSAHU HLAVICKA */
 
 .section1{
-    width: 40vw;
+    width: 35vw;
     display: flex;
     justify-content: center;
     align-items: center;         
     flex-direction: column-reverse;
     margin: 0 auto;
     gap: 50px;
-    background-color: #343a40;
+
 }
